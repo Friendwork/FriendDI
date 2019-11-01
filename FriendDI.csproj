@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>FriendDI</PackageId>
+    <Title>Simple auto classes scanner for Dependency Injection</Title>
+    <Version>1.0.0</Version>
+    <Authors>Le Hoai</Authors>
+    <Company>FriendsWork</Company>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup> 
+  <ItemGroup>
+    
+  </ItemGroup> 
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+  </ItemGroup>
+</Project> 
