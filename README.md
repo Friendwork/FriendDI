@@ -24,21 +24,14 @@ dotnet add package FriendDI --version 1.0.0
 }
 ```
 #### Startup.cs
-```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-  // another stuffs
-  // register services namespace
-  services.RegisterServicesNameSpace();
-}
-```
-With difference assembly :
+
 ```csharp
 public void ConfigureServices(IServiceCollection services)
 {
   // another stuffs
   // get services assembly
-  Assembly assembly = GetServiceAssembly();
+  // Assembly assembly = GetServiceAssembly();
+  Assembly assembly = Assembly.GetExecutingAssembly()
   // register services namespace
   services.RegisterServicesNameSpace(assembly);
 }

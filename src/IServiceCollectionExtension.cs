@@ -16,7 +16,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// Default is current executing assembly
         /// </summary>
         /// <param name="assembly">The assembly which contains service classes</param>
-        public static void RegisterServicesNameSpace(this IServiceCollection serviceCollection, Assembly assembly = null)
+        public static void RegisterServicesNameSpace(this IServiceCollection serviceCollection, Assembly assembly)
         {
             // get DI setting
             var config = new ConfigurationBuilder()

@@ -8,6 +8,7 @@
     <Authors>Le Hoai</Authors>
     <Company>FriendsWork</Company>
     <IsPackable>true</IsPackable>
+    <projectUrl>https://github.com/Friendwork/FriendDI</projectUrl>
   </PropertyGroup> 
   <ItemGroup>
     
