@@ -46,7 +46,8 @@ namespace Microsoft.Extensions.DependencyInjection
 
                 if(implType == null)
                 {
-                    throw new Exception("There are no implement of " + type.FullName);
+                    Console.WriteLine("Cant find implementation for " + type.FullName);
+                    continue;
                 }
 
                 Service attr = ReflectionHelper.GetServiceAttribute(implType);
