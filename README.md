@@ -5,11 +5,11 @@
 ## Installing
 #### Package Manager
 ```console
-Install-Package FriendDI -Version 1.0.0
+Install-Package FriendDI -Version 1.0.3
 ```
 #### .NET CLI
 ```console
-dotnet add package FriendDI --version 1.0.0
+dotnet add package FriendDI --version 1.0.3
 ```
 ## Usage
 #### appsettings.json
